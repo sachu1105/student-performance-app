@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Cards from './components/Cards';
 import Modal from './components/Modal';
-import { students } from './data/StudentData';  // Import sample student data
+import { students } from './data/StudentData';  
 
 const App = () => {
   const [selectedStudent, setSelectedStudent] = useState(null);
@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div className="p-8">
-      <h1 className="text-4xl font-bold text-center mb-24">Student Performance</h1>
+      <h1 className="text-4xl font-bold text-center mb-24 text-teal-800	">Student Performance Analysis</h1>
       {/* Heading */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 m-0">
         {students.map((student) => (
