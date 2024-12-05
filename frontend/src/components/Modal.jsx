@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import Graph from './Graph';  // Import the Graph component to display charts
+import Graph from './Graph';  
 
 // Modal component to display student details when a card is clicked
 const Modal = ({ student, onClose }) => {

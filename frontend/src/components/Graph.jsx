@@ -1,9 +1,9 @@
-import { Line, Doughnut } from 'react-chartjs-2'; // Import chart components
+import { Line, Doughnut } from 'react-chartjs-2'; 
 import { Chart as ChartJS, CategoryScale,ArcElement, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 
 // Register necessary Chart.js components
 ChartJS.register(
-    ArcElement, // Add this line
+    ArcElement, 
     CategoryScale,
     LinearScale,
     PointElement,
